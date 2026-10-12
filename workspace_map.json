@@ -1,0 +1,162 @@
+[
+  {
+    "release": "preprocessing/r4_prepare.py",
+    "workspace": "scripts/r4_prepare.py"
+  },
+  {
+    "release": "preprocessing/r4_io.py",
+    "workspace": "scripts/r4_io.py"
+  },
+  {
+    "release": "preprocessing/r4_analyze.py",
+    "workspace": "scripts/r4_analyze.py"
+  },
+  {
+    "release": "preprocessing/r45_resolve.py",
+    "workspace": "scripts/r45_resolve.py"
+  },
+  {
+    "release": "preprocessing/analyze_semantic_pilot_r2.py",
+    "workspace": "scripts/analyze_semantic_pilot_r2.py"
+  },
+  {
+    "release": "preprocessing/r3_policy.py",
+    "workspace": "scripts/r3_policy.py"
+  },
+  {
+    "release": "preprocessing/r5_common.py",
+    "workspace": "scripts/r5_common.py"
+  },
+  {
+    "release": "preprocessing/r5_extract_glm.py",
+    "workspace": "scripts/r5_extract_glm.py"
+  },
+  {
+    "release": "preprocessing/r5_build_labels.py",
+    "workspace": "scripts/r5_build_labels.py"
+  },
+  {
+    "release": "preprocessing/r82_mrms_inventory.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R82_CONFIRMATORY_DATA_BUILD/r82_mrms_inventory.py"
+  },
+  {
+    "release": "preprocessing/r82_mrms_roi_cache_build.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R82_CONFIRMATORY_DATA_BUILD/r82_mrms_roi_cache_build.py"
+  },
+  {
+    "release": "preprocessing/r82_mrms_content_qc_retry14.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R82_CONFIRMATORY_DATA_BUILD/r82_mrms_content_qc_retry14.py"
+  },
+  {
+    "release": "preprocessing/r82_glm_precision_recovery.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R82_CONFIRMATORY_DATA_BUILD/r82_glm_precision_recovery.py"
+  },
+  {
+    "release": "preprocessing/r82_raw_composite_audit_build.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R82_CONFIRMATORY_DATA_BUILD/r82_raw_composite_audit_build.py"
+  },
+  {
+    "release": "preprocessing/r82_temporal_frozen_build.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R82_CONFIRMATORY_DATA_BUILD/r82_temporal_frozen_build.py"
+  },
+  {
+    "release": "preprocessing/stream_content_qc.py",
+    "workspace": "scripts/stream_content_qc.py"
+  },
+  {
+    "release": "feature_construction/r52_build.py",
+    "workspace": "scripts/r52_build.py"
+  },
+  {
+    "release": "feature_construction/r55_split_design.py",
+    "workspace": "scripts/r55_split_design.py"
+  },
+  {
+    "release": "feature_construction/r82_frozen_label_readiness_build.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R82_CONFIRMATORY_DATA_BUILD/r82_frozen_label_readiness_build.py"
+  },
+  {
+    "release": "feature_construction/r82_frozen_event_manifest_build.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R82_CONFIRMATORY_DATA_BUILD/r82_frozen_event_manifest_build.py"
+  },
+  {
+    "release": "feature_construction/r82_frozen_feature_build.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R82_CONFIRMATORY_DATA_BUILD/r82_frozen_feature_build.py"
+  },
+  {
+    "release": "feature_construction/r82_cache_final_validate_stage.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R82_CONFIRMATORY_DATA_BUILD/r82_cache_final_validate_stage.py"
+  },
+  {
+    "release": "feature_construction/r82_finalize_gate.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R82_CONFIRMATORY_DATA_BUILD/r82_finalize_gate.py"
+  },
+  {
+    "release": "model/r6_baseline.py",
+    "workspace": "scripts/r6_baseline.py"
+  },
+  {
+    "release": "decision/r7_minimal_bias_resolution.py",
+    "workspace": "scripts/r7_minimal_bias_resolution.py"
+  },
+  {
+    "release": "verification/r83_common.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R83_FROZEN_INFERENCE/r83_common.py"
+  },
+  {
+    "release": "verification/r83_inference.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R83_FROZEN_INFERENCE/r83_inference.py"
+  },
+  {
+    "release": "verification/r83_evaluate.py",
+    "workspace": "R8_EXTERNAL_CONFIRMATION/R83_FROZEN_INFERENCE/r83_evaluate.py"
+  },
+  {
+    "release": "model/checkpoints_r6/M_FUSION_seed2026091001.pt",
+    "workspace": "checkpoints_r6/M_FUSION_seed2026091001.pt"
+  },
+  {
+    "release": "model/checkpoints_r6/M_FUSION_seed2026091002.pt",
+    "workspace": "checkpoints_r6/M_FUSION_seed2026091002.pt"
+  },
+  {
+    "release": "model/checkpoints_r6/M_FUSION_seed2026091003.pt",
+    "workspace": "checkpoints_r6/M_FUSION_seed2026091003.pt"
+  },
+  {
+    "release": "model/checkpoints_r6/M_LTG_seed2026091001.pt",
+    "workspace": "checkpoints_r6/M_LTG_seed2026091001.pt"
+  },
+  {
+    "release": "model/checkpoints_r6/M_LTG_seed2026091002.pt",
+    "workspace": "checkpoints_r6/M_LTG_seed2026091002.pt"
+  },
+  {
+    "release": "model/checkpoints_r6/M_LTG_seed2026091003.pt",
+    "workspace": "checkpoints_r6/M_LTG_seed2026091003.pt"
+  },
+  {
+    "release": "model/checkpoints_r6/M_MET_seed2026091001.pt",
+    "workspace": "checkpoints_r6/M_MET_seed2026091001.pt"
+  },
+  {
+    "release": "model/checkpoints_r6/M_MET_seed2026091002.pt",
+    "workspace": "checkpoints_r6/M_MET_seed2026091002.pt"
+  },
+  {
+    "release": "model/checkpoints_r6/M_MET_seed2026091003.pt",
+    "workspace": "checkpoints_r6/M_MET_seed2026091003.pt"
+  },
+  {
+    "release": "model/checkpoints_r7/M_HSUPPRESS_seed2026091001.pt",
+    "workspace": "checkpoints_r7/M_HSUPPRESS_seed2026091001.pt"
+  },
+  {
+    "release": "model/checkpoints_r7/M_HSUPPRESS_seed2026091002.pt",
+    "workspace": "checkpoints_r7/M_HSUPPRESS_seed2026091002.pt"
+  },
+  {
+    "release": "model/checkpoints_r7/M_HSUPPRESS_seed2026091003.pt",
+    "workspace": "checkpoints_r7/M_HSUPPRESS_seed2026091003.pt"
+  }
+]

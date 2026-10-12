@@ -1,0 +1,35 @@
+{
+  "cff-version": "1.2.0",
+  "message": "If you use this candidate software snapshot, cite this repository. No paper or archived release DOI is available.",
+  "type": "software",
+  "title": "Code for State-Dependent Operating Points for Local-Onset and Ongoing Lightning Nowcasting",
+  "authors": [
+    {
+      "family-names": "He",
+      "given-names": "Wangquan",
+      "affiliation": "College of Electronic Information Engineering, Taiyuan University of Science and Technology, Taiyuan, Shanxi, China"
+    },
+    {
+      "family-names": "Liu",
+      "given-names": "Liqun",
+      "affiliation": "College of Electronic Information Engineering, Taiyuan University of Science and Technology, Taiyuan, Shanxi, China"
+    },
+    {
+      "family-names": "Wu",
+      "given-names": "Qingfeng",
+      "affiliation": "College of Electronic Information Engineering, Taiyuan University of Science and Technology, Taiyuan, Shanxi, China"
+    }
+  ],
+  "repository-code": "https://github.com/2978264217hd-web/state-dependent-lightning-nowcasting",
+  "url": "https://github.com/2978264217hd-web/state-dependent-lightning-nowcasting",
+  "version": "1.0.0-candidate",
+  "keywords": [
+    "lightning nowcasting",
+    "GOES GLM",
+    "MRMS",
+    "forecast verification",
+    "state-conditioned decision",
+    "operating point"
+  ],
+  "license": "MIT"
+}
