@@ -10,7 +10,7 @@ Affiliation: **College of Electronic Information Engineering, Taiyuan University
 
 This repository contains code and manuscript-specific reproducibility materials associated with the above study. The repository provides the code and frozen manuscript-specific definitions used in the study. The complete end-to-end workflow has not been independently reproduced from a clean environment.
 
-Repository: [state-dependent-lightning-nowcasting](https://github.com/2978264217hd-web/state-dependent-lightning-nowcasting). Version metadata: **1.0.0-candidate**. This is an initial public code snapshot, not a tagged GitHub Release or a Zenodo archive. No paper DOI or software archive DOI is assigned. No author email or unconfirmed ORCID is published here. Code license: **MIT**; see LICENSE.
+Repository: [state-dependent-lightning-nowcasting](https://github.com/2978264217hd-web/state-dependent-lightning-nowcasting). Version metadata: **1.0.0**. This repository is prepared for the v1.0.0 GitHub Release and subsequent Zenodo software archive. No paper DOI or software archive DOI is assigned yet. No author email or unconfirmed ORCID is published here. Code license: **MIT**; see LICENSE.
 
 ## Data access and scope
 
@@ -35,7 +35,7 @@ Only the code package is published in this repository. The separate processed DA
 | workspace_map.json | Code/checkpoint mapping into the original relative reproduction layout |
 | SHA256SUMS.json | Public snapshot file checksums, excluding this checksum file itself |
 | requirements.txt | Major dependencies and evidence-qualified versions |
-| CITATION.cff | Confirmed authors/title/repository, candidate version, and MIT license; no DOI, ORCID or release date invented |
+| CITATION.cff | Confirmed authors/title/repository, version 1.0.0, and MIT license; no DOI, ORCID or release date invented |
 
 Model checkpoint files are retained scientific artifacts, not training caches. No raw observation arrays, training caches, private reports, manuscript/cover letter, credential files, system configuration or administrative audit logs are included. The code's scientific functions/classes are preserved; path configuration is documented below.
 
@@ -50,7 +50,7 @@ python -m pip install torch==2.7.1+cu118 --index-url https://download.pytorch.or
 python -m pip install -r requirements.txt
 ```
 
-ecCodes/NetCDF native support, compatible CUDA drivers, memory and disk capacity are required. Retained code includes an 80 GiB free-space guard and additional external-sort space checks. No environment installation or scientific command was executed as part of this publication action. The software remains a candidate without clean-environment reproduction certification.
+ecCodes/NetCDF native support, compatible CUDA drivers, memory and disk capacity are required. Retained code includes an 80 GiB free-space guard and additional external-sort space checks. No environment installation or scientific command was executed as part of this publication action. The software release remains without clean-environment reproduction certification.
 
 ## Configurable paths and staging
 
@@ -101,4 +101,4 @@ Table export copies existing cell text without computing new metrics. The origin
 
 ## Citation and publication status
 
-Use the repository URL and CITATION.cff for this candidate snapshot. A real archived software DOI will be added only after an author-approved future archive exists. This commit does not create a tag, GitHub Release, Zenodo record or DOI. No complete end-to-end reproducibility claim is made.
+Use the repository URL and CITATION.cff for version 1.0.0. A persistent software DOI will be added after the v1.0.0 release is archived in Zenodo. This metadata-preparation commit does not itself create a Git tag, GitHub Release, Zenodo record, or DOI. No complete end-to-end reproducibility claim is made.
