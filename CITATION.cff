@@ -1,6 +1,6 @@
 {
   "cff-version": "1.2.0",
-  "message": "If you use this candidate software snapshot, cite this repository. No paper or archived release DOI is available.",
+  "message": "If you use this software, cite this repository. An archived release DOI will be added after Zenodo archiving.",
   "type": "software",
   "title": "Code for State-Dependent Operating Points for Local-Onset and Ongoing Lightning Nowcasting",
   "authors": [
@@ -22,7 +22,7 @@
   ],
   "repository-code": "https://github.com/2978264217hd-web/state-dependent-lightning-nowcasting",
   "url": "https://github.com/2978264217hd-web/state-dependent-lightning-nowcasting",
-  "version": "1.0.0-candidate",
+  "version": "1.0.0",
   "keywords": [
     "lightning nowcasting",
     "GOES GLM",
